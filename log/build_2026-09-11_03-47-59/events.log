@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.002242] (mia_competition) JobQueued: {'identifier': 'mia_competition', 'dependencies': OrderedDict()}
+[0.005389] (mia_competition) JobStarted: {'identifier': 'mia_competition'}
+[0.095332] (-) TimerEvent: {}
+[0.198753] (-) TimerEvent: {}
+[0.301339] (-) TimerEvent: {}
+[0.403677] (-) TimerEvent: {}
+[0.505199] (-) TimerEvent: {}
+[0.609191] (-) TimerEvent: {}
+[0.742413] (-) TimerEvent: {}
+[0.843395] (-) TimerEvent: {}
+[0.945955] (-) TimerEvent: {}
+[1.050338] (-) TimerEvent: {}
+[1.155460] (-) TimerEvent: {}
+[1.257828] (-) TimerEvent: {}
+[1.360341] (-) TimerEvent: {}
+[1.462114] (-) TimerEvent: {}
+[1.564355] (-) TimerEvent: {}
+[1.665665] (-) TimerEvent: {}
+[1.766237] (-) TimerEvent: {}
+[1.867518] (-) TimerEvent: {}
+[1.975197] (-) TimerEvent: {}
+[2.080592] (-) TimerEvent: {}
+[2.183431] (-) TimerEvent: {}
+[2.284845] (-) TimerEvent: {}
+[2.388387] (-) TimerEvent: {}
+[2.518624] (-) TimerEvent: {}
+[2.628243] (-) TimerEvent: {}
+[2.734418] (-) TimerEvent: {}
+[2.876995] (-) TimerEvent: {}
+[2.982266] (-) TimerEvent: {}
+[3.085435] (-) TimerEvent: {}
+[3.186437] (-) TimerEvent: {}
+[3.287347] (-) TimerEvent: {}
+[3.394059] (-) TimerEvent: {}
+[3.500676] (-) TimerEvent: {}
+[3.604985] (-) TimerEvent: {}
+[3.707799] (-) TimerEvent: {}
+[3.810024] (-) TimerEvent: {}
+[3.914605] (-) TimerEvent: {}
+[3.937672] (mia_competition) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mia_competition', 'build', '--build-base', '/home/melbnna/competition_ws/build/mia_competition/build', 'install', '--record', '/home/melbnna/competition_ws/build/mia_competition/install.log', '--install-scripts', '$base/lib/mia_competition', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/melbnna/competition_ws/src/mia_competition', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'melbnna', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/melbnna/microros_ws/install/micro_ros_agent/lib:/home/melbnna/microros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/melbnna', 'OLDPWD': '/home/melbnna', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2538', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/melbnna/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'melbnna', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'melbnna', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu2:@/tmp/.ICE-unix/2492,unix/Ubuntu2:/tmp/.ICE-unix/2492', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eedba8a4_0ec0_4c2c_a01a_3de1fdf5a878', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A7JIV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.193', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/melbnna/microros_ws/install/micro_ros_setup:/home/melbnna/microros_ws/install/micro_ros_agent:/home/melbnna/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/melbnna/competition_ws/build/mia_competition', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/melbnna/competition_ws/build/mia_competition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages:/home/melbnna/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/melbnna/microros_ws/install/micro_ros_setup:/home/melbnna/microros_ws/install/micro_ros_agent:/home/melbnna/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.017218] (-) TimerEvent: {}
+[4.135517] (-) TimerEvent: {}
+[4.245893] (-) TimerEvent: {}
+[4.318614] (mia_competition) StdoutLine: {'line': b'running egg_info\n'}
+[4.346844] (-) TimerEvent: {}
+[4.367869] (mia_competition) StdoutLine: {'line': b'writing ../../build/mia_competition/mia_competition.egg-info/PKG-INFO\n'}
+[4.374099] (mia_competition) StdoutLine: {'line': b'writing dependency_links to ../../build/mia_competition/mia_competition.egg-info/dependency_links.txt\n'}
+[4.374219] (mia_competition) StdoutLine: {'line': b'writing requirements to ../../build/mia_competition/mia_competition.egg-info/requires.txt\n'}
+[4.374296] (mia_competition) StdoutLine: {'line': b'writing top-level names to ../../build/mia_competition/mia_competition.egg-info/top_level.txt\n'}
+[4.447560] (-) TimerEvent: {}
+[4.449204] (mia_competition) StdoutLine: {'line': b"reading manifest file '../../build/mia_competition/mia_competition.egg-info/SOURCES.txt'\n"}
+[4.451750] (mia_competition) StdoutLine: {'line': b"writing manifest file '../../build/mia_competition/mia_competition.egg-info/SOURCES.txt'\n"}
+[4.452811] (mia_competition) StdoutLine: {'line': b'running build\n'}
+[4.453310] (mia_competition) StdoutLine: {'line': b'running build_py\n'}
+[4.453410] (mia_competition) StdoutLine: {'line': b'copying mia_competition/autonmous_phase.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition\n'}
+[4.453770] (mia_competition) StdoutLine: {'line': b'copying mia_competition/manual_phase.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition\n'}
+[4.454433] (mia_competition) StdoutLine: {'line': b'copying mia_competition/autonmous_manual_selection.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition\n'}
+[4.454920] (mia_competition) StdoutLine: {'line': b'running install\n'}
+[4.461990] (mia_competition) StdoutLine: {'line': b'running install_lib\n'}
+[4.485672] (mia_competition) StdoutLine: {'line': b'copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/autonmous_phase.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition\n'}
+[4.485869] (mia_competition) StdoutLine: {'line': b'copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/manual_phase.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition\n'}
+[4.485946] (mia_competition) StdoutLine: {'line': b'copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/autonmous_manual_selection.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition\n'}
+[4.488966] (mia_competition) StdoutLine: {'line': b'byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/autonmous_phase.py to autonmous_phase.cpython-312.pyc\n'}
+[4.489173] (mia_competition) StdoutLine: {'line': b'byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/manual_phase.py to manual_phase.cpython-312.pyc\n'}
+[4.490571] (mia_competition) StdoutLine: {'line': b'byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/autonmous_manual_selection.py to autonmous_manual_selection.cpython-312.pyc\n'}
+[4.490937] (mia_competition) StdoutLine: {'line': b'running install_data\n'}
+[4.491133] (mia_competition) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.532542] (mia_competition) StdoutLine: {'line': b"removing '/home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.534090] (mia_competition) StdoutLine: {'line': b'Copying ../../build/mia_competition/mia_competition.egg-info to /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition-0.0.0-py3.12.egg-info\n'}
+[4.537718] (mia_competition) StdoutLine: {'line': b'running install_scripts\n'}
+[4.547944] (-) TimerEvent: {}
+[4.664963] (-) TimerEvent: {}
+[4.708561] (mia_competition) StdoutLine: {'line': b"writing list of installed files to '/home/melbnna/competition_ws/build/mia_competition/install.log'\n"}
+[4.749150] (mia_competition) CommandEnded: {'returncode': 0}
+[4.766044] (-) TimerEvent: {}
+[4.791550] (mia_competition) JobEnded: {'identifier': 'mia_competition', 'rc': 0}
+[4.792500] (-) EventReactorShutdown: {}

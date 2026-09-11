@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/mia_competition/mia_competition.egg-info/PKG-INFO
+writing dependency_links to ../../build/mia_competition/mia_competition.egg-info/dependency_links.txt
+writing requirements to ../../build/mia_competition/mia_competition.egg-info/requires.txt
+writing top-level names to ../../build/mia_competition/mia_competition.egg-info/top_level.txt
+reading manifest file '../../build/mia_competition/mia_competition.egg-info/SOURCES.txt'
+writing manifest file '../../build/mia_competition/mia_competition.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mia_competition/autonmous_phase.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition
+copying mia_competition/manual_phase.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition
+copying mia_competition/autonmous_manual_selection.py -> /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition
+running install
+running install_lib
+copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/autonmous_phase.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition
+copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/manual_phase.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition
+copying /home/melbnna/competition_ws/build/mia_competition/build/lib/mia_competition/autonmous_manual_selection.py -> /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition
+byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/autonmous_phase.py to autonmous_phase.cpython-312.pyc
+byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/manual_phase.py to manual_phase.cpython-312.pyc
+byte-compiling /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition/autonmous_manual_selection.py to autonmous_manual_selection.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/mia_competition/mia_competition.egg-info to /home/melbnna/competition_ws/install/mia_competition/lib/python3.12/site-packages/mia_competition-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/melbnna/competition_ws/build/mia_competition/install.log'

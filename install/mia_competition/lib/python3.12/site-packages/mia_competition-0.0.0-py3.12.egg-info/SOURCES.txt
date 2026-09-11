@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mia_competition/mia_competition.egg-info/PKG-INFO
+../../build/mia_competition/mia_competition.egg-info/SOURCES.txt
+../../build/mia_competition/mia_competition.egg-info/dependency_links.txt
+../../build/mia_competition/mia_competition.egg-info/requires.txt
+../../build/mia_competition/mia_competition.egg-info/top_level.txt
+../../build/mia_competition/mia_competition.egg-info/zip-safe
+mia_competition/__init__.py
+mia_competition/autonmous_manual_selection.py
+mia_competition/autonmous_phase.py
+mia_competition/manual_phase.py
+resource/mia_competition
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
